@@ -1,0 +1,97 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio (https://startbootstrap.com/template-overviews/3-col-portfolio)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-3-col-portfolio/blob/master/LICENSE)
+ */
+
+/* Makes the Map page fill the window. */
+html, body {
+  height: 100%;
+  /* background: #201f1f; */
+  background: #85a9de;
+  background: rgba(74, 144, 226);
+
+ }
+
+ 
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
+
+.mv_responsive_nav_logo {
+    width: 90%;
+    height:auto;
+    border-style: none;
+    align-content: center;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:rgba(74, 144, 226, .3);
+ }
+
+.mv_nav_items {
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.mv_place_header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+.mv_image {
+  max-width: 100%;
+  height: auto;   
+  margin: auto;
+}
+
+.mv_icon{
+
+  width: 10%;
+  height: auto;
+  margin-top: 5px;
+ 
+}
+
+/* Any adjustments for large displays go here */
+@media (min-width: 800px) {
+   
+  .mv_nav_items {
+  font-size: 30px;
+  line-height: 35px; 
+  }
+
+  .mv_responsive_nav_logo{
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .mv_place_header {
+  
+  font-size: 30px;
+  font-weight: bold;
+
+  }
+
+  .mv_image{
+    margin-left: 20px;
+  }
+}
+
+/* 700px for anything less than tablet portrait mode */
+@media (max-width: 700px) {
+    .mv_nav_items {
+        font-size: 20px;
+    }
+}
+
+
+ 
+
